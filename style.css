@@ -1,0 +1,24 @@
+body {
+  background: linear-gradient(#ffafbd, #ffc3a0);
+  font-family: Arial;
+  text-align: center;
+  padding-top: 150px;
+}
+
+#card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+button {
+  padding: 12px 25px;
+  background: crimson;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  margin-top: 20px;
+}

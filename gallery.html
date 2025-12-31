@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Us ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<img id="pic" src="photo1.jpg" width="250">
+<br><br>
+<button onclick="nextPic()">Next</button>
+
+<script>
+let pics = ["photo1.jpg","photo2.jpg","photo3.jpg"];
+let i = 0;
+
+function nextPic() {
+  i++;
+  if (i < pics.length) {
+    document.getElementById("pic").src = pics[i];
+  } else {
+    window.open("message.html", "_blank");
+  }
+}
+</script>
+
+</body>
+</html>
